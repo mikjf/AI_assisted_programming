@@ -1,4 +1,4 @@
-# AI Assisted Programming - From ChatGPT to HR Demo App
+# AI Assisted Programming - From ChatGPT to running App
 
 ![alternative text](img/readme_image.jpg)
 
