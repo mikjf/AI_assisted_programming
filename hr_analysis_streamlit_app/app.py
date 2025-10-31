@@ -1,4 +1,3 @@
-# app.py
 from __future__ import annotations
 import pandas as pd
 import streamlit as st
@@ -36,9 +35,9 @@ with tab1:
         # ✅ Toggle between preview and full dataset
         show_all = st.checkbox("Show all rows", value=False)
         if show_all:
-            st.dataframe(df, use_container_width=True)
+            st.dataframe(df, width="stretch")
         else:
-            st.dataframe(df.head(20), use_container_width=True)
+            st.dataframe(df.head(20), width="stretch")
 
         st.caption(f"Rows: {len(df)}")
 
@@ -129,13 +128,13 @@ with tab2:
 
         # Charts
         st.subheader("Headcount by Department")
-        st.plotly_chart(headcount_by_department(dff), use_container_width=True)
+        st.plotly_chart(headcount_by_department(dff), width="stretch")
 
         st.subheader("Age Distribution")
-        st.plotly_chart(age_distribution(dff), use_container_width=True)
+        st.plotly_chart(age_distribution(dff), width="stretch")
 
         st.subheader("Vacation Days Taken by Department")
-        st.plotly_chart(vacation_taken_by_department(dff), use_container_width=True)
+        st.plotly_chart(vacation_taken_by_department(dff), width="stretch")
 
 # ----------------------
 # ----------------------

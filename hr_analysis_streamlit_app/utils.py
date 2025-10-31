@@ -4,7 +4,10 @@ import os
 from typing import List
 import pandas as pd
 
-DATA_PATH = "data/hr_dataset.csv"
+# Get the directory where this utils.py file is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Go up one level and then into data folder
+DATA_PATH = os.path.join(BASE_DIR, "..", "data", "hr_dataset.csv")
 
 EXPECTED_COLUMNS: List[str] = [
     "First Name", "Last Name", "Residence", "Age", "Department",

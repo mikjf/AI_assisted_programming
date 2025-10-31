@@ -1,4 +1,4 @@
-# AI Assisted Programming - HR Tool Demo
+# AI Assisted Programming - From ChatGPT to HR Demo App
 
 ![alternative text](img/readme_image.jpg)
 
@@ -6,34 +6,48 @@
 
 ## Objective
 
-HR Tool Demo is a small web application (built with Streamlit) for HR data analysis and simple employee management. The idea is to demonstrate how modern AI coding tools can accelerate software development. The project uses a synthesized Swiss HR dataset and showcases interactive visualizations and form-based data entry with no direct coding knowledge.
+The HR Tool Demo is a small web-application (built with Streamlit) for HR-data analysis and simple employee management. The idea is to demonstrate how modern AI-assisted coding tools can accelerate software development. The project uses a synthetic Swiss HR dataset and showcases interactive visualisations and form-based data entry developed with minimal manual coding.
+
+### Features
+
+* Data generation & exploration: use ChatGPT to create a synthetic Swiss HR dataset and explore it in Colab with Gemini AI through descriptive statistics and Plotly visualizations.
+* Visualization & insights: build interactive Plotly charts to analyze workload, vacation usage, and seniority patterns across departments.
+* Streamlit app development: develop a modular Streamlit app (app.py, utils.py, plots.py) in GitHub Codespaces with ChatGPT, adding filtering and data management features.
+* Deployment & troubleshooting: set up the environment, install dependencies, and learn how to resolve common path and API issues as part of a full AI-assisted workflow.
+* AI-assisted development: leverage AI coding assistants (ChatGPT, GitHub Copilot, etc.) throughout the entire development process to accelerate prototyping and improve code quality.
 
 ### Project structure
 
-- 
+```bash
+AI_assisted_programming/
+│
+├── data/
+│   └── hr_dataset.csv
+│
+├── hr_analysis_streamlit_app/
+│   ├── app.py
+│   ├── plots.py
+│   ├── utils.py
+│   └── requirements.txt
+│
+├── .gitignore
+├── hrtool_prompting_walkthrough.ipynb
+├── prompting_types.md
+└── README.md
+
+```
 
 ### Technologies and packages
 
-### Setup instructions
+- ChatGPT
+- Google Colab and Gemini
+- GitHub Codespaces
+- Python
+- Pandas
+- Plotly
+- Streamlit
+- Additional dependencies listed in `requirements.txt`
 
-- x
-- x 
-- x
+### Sources
 
-```bash
-xxx
-```
-
-```bash
-├── README.md                   # Project overview and setup instructions
-├── hr_tool/
-│   ├── app.py                  # Streamlit app for HR dashboard & manager
-│   ├── utils.py                # Helper functions (data load/save, calculations)
-│   └── data/
-│       └── swiss_hr_dataset.csv    # Synthesized HR dataset (100 entries)
-├── requirements.txt            # Python dependencies for the project
-└── prompts/
-    ├── dataset_generation.md   # Prompt used to generate the synthetic dataset
-    ├── app_design.md           # Prompts for designing the Streamlit app structure
-    └── debugging.md            # Prompt illustrating an AI-assisted debugging example
-```
+- Inspired by the AI-Assisted Programming Workshop at [Constructor Nexademy](https://nexademy.org/)
