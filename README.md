@@ -1,4 +1,4 @@
-# AI Assisted Programming - From ChatGPT to running App
+# Leverage AI coding assistants to create an app
 
 ![alternative text](img/readme_image.jpg)
 
