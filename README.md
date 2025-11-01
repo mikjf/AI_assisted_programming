@@ -1,4 +1,4 @@
-# Leverage AI coding assistants to create an app
+# Leverage AI coding assistants to create a Streamlit app
 
 ![alternative text](img/readme_image.jpg)
 
