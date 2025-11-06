@@ -50,4 +50,4 @@ AI_assisted_programming/
 
 ### Sources
 
-- Inspired by the AI-Assisted Programming Workshop at [Constructor Nexademy](https://nexademy.org/).
+- Inspired by the AI-Assisted Programming Workshop at [Constructor Nexademy](https://nexademy.org/)
